@@ -67,7 +67,7 @@ function Nav() {
         >
           <div className="max-w-7xl mx-auto inl">
             <div className="inline-block">
-              <Dropdown
+              {/* <Dropdown
                 buttonText="Products"
                 buttonColor="bg-[#0B72BF]"
                 buttonHoverColor="hover:bg-gray-200"
@@ -76,21 +76,21 @@ function Nav() {
                   { to: "/products/category1", label: "Category 1" },
                   { to: "/products/category2", label: "Category 2" },
                 ]}
-              />
+              /> */}
             </div>
             <NavLink
-              to="/service"
+              to="/servic"
               className="block mt-2 font-normal"
               onClick={closeMobileMenu}
             >
               Services
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/projects"
               className="block mt-2 font-normal"
               onClick={closeMobileMenu}
             >
-              Contact
+              Projects
             </NavLink>
             <NavLink
               to="/about"
@@ -104,7 +104,7 @@ function Nav() {
               className="block mt-2 font-normal"
               onClick={closeMobileMenu}
             >
-              Who We Are?
+             Contact Us
             </NavLink>
           </div>
         </div>
